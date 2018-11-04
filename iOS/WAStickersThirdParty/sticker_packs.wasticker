@@ -26,6 +26,26 @@
         {
             "image_file": "sbd_sticker_bear_fridge.png",
             "emojis": ["⛄"]
+        },
+        {
+            "image_file": "sbd_sticker_bear_bus_sleep.png",
+            "emojis": ["😴"]
+        },
+        {
+            "image_file": "sbd_sticker_bear_kimchongun.png",
+            "emojis": ["😎"]
+        },
+        {
+            "image_file": "sbd_sticker_bun_thumb.png",
+            "emojis": ["👍"]
+        },
+        {
+            "image_file": "sbd_sticker_cto_lawmong.png",
+            "emojis": ["😎"]
+        },
+        {
+            "image_file": "sbd_sticker_cto_dive.png",
+            "emojis": ["💦"]
         }]
     }]
 }
