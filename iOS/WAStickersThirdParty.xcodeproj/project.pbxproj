@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		0E6359A4203E148200805DEB /* StickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6359A3203E148200805DEB /* StickerCell.swift */; };
+		4C54DCA8218F1F5C00BCFAF3 /* sbd_sticker_bun_sleep.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C54DCA3218F1F5B00BCFAF3 /* sbd_sticker_bun_sleep.png */; };
+		4C54DCA9218F1F5C00BCFAF3 /* sbd_sticker_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C54DCA4218F1F5B00BCFAF3 /* sbd_sticker_logo.png */; };
+		4C54DCAA218F1F5C00BCFAF3 /* sbd_sticker_bear_strong.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C54DCA5218F1F5C00BCFAF3 /* sbd_sticker_bear_strong.png */; };
+		4C54DCAB218F1F5C00BCFAF3 /* sbd_sticker_tray_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C54DCA6218F1F5C00BCFAF3 /* sbd_sticker_tray_image.png */; };
+		4C54DCAC218F1F5C00BCFAF3 /* sbd_sticker_bear_fridge.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C54DCA7218F1F5C00BCFAF3 /* sbd_sticker_bear_fridge.png */; };
 		8A0A6DCD1FE9F1CE00110AF2 /* UIAlertController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0A6DCC1FE9F1CE00110AF2 /* UIAlertController+Additions.swift */; };
 		8A18E2EE1FB3B47D0082201D /* YYImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A18E2E51FB3B47B0082201D /* YYImage.m */; };
 		8A18E2EF1FB3B47D0082201D /* YYAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A18E2E81FB3B47C0082201D /* YYAnimatedImageView.m */; };
@@ -55,6 +60,11 @@
 
 /* Begin PBXFileReference section */
 		0E6359A3203E148200805DEB /* StickerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerCell.swift; sourceTree = "<group>"; };
+		4C54DCA3218F1F5B00BCFAF3 /* sbd_sticker_bun_sleep.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = sbd_sticker_bun_sleep.png; sourceTree = "<group>"; };
+		4C54DCA4218F1F5B00BCFAF3 /* sbd_sticker_logo.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = sbd_sticker_logo.png; sourceTree = "<group>"; };
+		4C54DCA5218F1F5C00BCFAF3 /* sbd_sticker_bear_strong.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = sbd_sticker_bear_strong.png; sourceTree = "<group>"; };
+		4C54DCA6218F1F5C00BCFAF3 /* sbd_sticker_tray_image.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = sbd_sticker_tray_image.png; sourceTree = "<group>"; };
+		4C54DCA7218F1F5C00BCFAF3 /* sbd_sticker_bear_fridge.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = sbd_sticker_bear_fridge.png; sourceTree = "<group>"; };
 		8A0A6DCC1FE9F1CE00110AF2 /* UIAlertController+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Additions.swift"; sourceTree = "<group>"; };
 		8A18E2E31FB3B47A0082201D /* WAStickersThirdParty-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WAStickersThirdParty-Bridging-Header.h"; sourceTree = "<group>"; };
 		8A18E2E41FB3B47B0082201D /* YYImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYImage.h; sourceTree = "<group>"; };
@@ -115,6 +125,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C54DCAD218F1F6200BCFAF3 /* SBDStickers */ = {
+			isa = PBXGroup;
+			children = (
+				4C54DCA7218F1F5C00BCFAF3 /* sbd_sticker_bear_fridge.png */,
+				4C54DCA5218F1F5C00BCFAF3 /* sbd_sticker_bear_strong.png */,
+				4C54DCA3218F1F5B00BCFAF3 /* sbd_sticker_bun_sleep.png */,
+				4C54DCA4218F1F5B00BCFAF3 /* sbd_sticker_logo.png */,
+				4C54DCA6218F1F5C00BCFAF3 /* sbd_sticker_tray_image.png */,
+			);
+			name = SBDStickers;
+			sourceTree = "<group>";
+		};
 		8A18E2F31FB3B4840082201D /* WebP */ = {
 			isa = PBXGroup;
 			children = (
@@ -152,6 +174,7 @@
 		8A22EE021F9A9F40003A7F21 /* WAStickersThirdParty */ = {
 			isa = PBXGroup;
 			children = (
+				4C54DCAD218F1F6200BCFAF3 /* SBDStickers */,
 				8A22EE031F9A9F40003A7F21 /* AppDelegate.swift */,
 				8ACB6A971FE9CB7700A564BB /* Limits.swift */,
 				8A40BE641FB122B3003AD704 /* StickerPack.swift */,
@@ -274,11 +297,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C54DCAC218F1F5C00BCFAF3 /* sbd_sticker_bear_fridge.png in Resources */,
+				4C54DCAB218F1F5C00BCFAF3 /* sbd_sticker_tray_image.png in Resources */,
 				8A27F12F1FD9E733001B2BBD /* SecondaryTextTableViewCell.xib in Resources */,
+				4C54DCA9218F1F5C00BCFAF3 /* sbd_sticker_logo.png in Resources */,
+				4C54DCAA218F1F5C00BCFAF3 /* sbd_sticker_bear_strong.png in Resources */,
 				8A27F11C1FD73DD0001B2BBD /* StickerPackTableViewCell.xib in Resources */,
 				8A22EE0E1F9A9F40003A7F21 /* LaunchScreen.storyboard in Resources */,
 				8A22EE0B1F9A9F40003A7F21 /* Assets.xcassets in Resources */,
 				8A27F1311FD9E987001B2BBD /* LinkTableViewCell.xib in Resources */,
+				4C54DCA8218F1F5C00BCFAF3 /* sbd_sticker_bun_sleep.png in Resources */,
 				8A22EE091F9A9F40003A7F21 /* Main.storyboard in Resources */,
 				8A18E33D1FBA793F0082201D /* sticker_packs.wasticker in Resources */,
 			);
@@ -456,7 +484,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 57T9237FN3;
+				DEVELOPMENT_TEAM = FVBHHR63UW;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -464,7 +492,7 @@
 				INFOPLIST_FILE = WAStickersThirdParty/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = WA.WAStickersThirdParty;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mc.sticker.sbd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "WAStickersThirdParty/WAStickersThirdParty-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -480,7 +508,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 57T9237FN3;
+				DEVELOPMENT_TEAM = FVBHHR63UW;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -488,7 +516,7 @@
 				INFOPLIST_FILE = WAStickersThirdParty/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = WA.WAStickersThirdParty;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mc.sticker.sbd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "WAStickersThirdParty/WAStickersThirdParty-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
