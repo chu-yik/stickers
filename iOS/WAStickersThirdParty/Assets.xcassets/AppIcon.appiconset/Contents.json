@@ -33,13 +33,13 @@
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "Cuppy_120.png",
+      "filename" : "ws_sticker_sbd_icon@2x.png",
       "scale" : "2x"
     },
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "Cuppy_180.png",
+      "filename" : "ws_sticker_sbd_icon@3x.png",
       "scale" : "3x"
     },
     {
@@ -90,7 +90,7 @@
     {
       "size" : "1024x1024",
       "idiom" : "ios-marketing",
-      "filename" : "Cuppy_1024.png",
+      "filename" : "ws_sticker_sbd_icon_1024.png",
       "scale" : "1x"
     }
   ],
